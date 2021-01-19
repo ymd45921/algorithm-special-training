@@ -40,8 +40,8 @@ namespace FWS
     }
 }
 
-using info_t = pair<int, int>;
-using heap_t = priority_queue<info_t, vector<info_t>, greater<>>;
 using dist_t = int;
+using info_t = pair<dist_t, int>;
+using heap_t = priority_queue<info_t, vector<info_t>, greater<>>;
 
 const dist_t inf = 0x3f3f3f3f;
