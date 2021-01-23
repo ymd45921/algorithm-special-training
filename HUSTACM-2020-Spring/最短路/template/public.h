@@ -1,12 +1,16 @@
 #include <bits/stdc++.h>
+#include <cc.hh>
 
-using namespace std;
+using dist_t = int;
+using info_t = pair<dist_t, int>;
+using heap_t = priority_queue<info_t, vector<info_t>, greater<>>;
+using list_t = vector<int>;
 
 struct edge
 {
-    int u, v, w, next;
+    int u, v; dist_t w; int next;
     edge() = default;
-    edge(int u, int v, int w, int next)
+    edge(int u, int v, dist_t w, int next)
             : u(u), v(v), w(w), next(next) {}
 };
 
@@ -39,9 +43,5 @@ namespace FWS
             process(ee[c]);
     }
 }
-
-using dist_t = int;
-using info_t = pair<dist_t, int>;
-using heap_t = priority_queue<info_t, vector<info_t>, greater<>>;
 
 const dist_t inf = 0x3f3f3f3f;
