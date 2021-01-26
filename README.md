@@ -8,12 +8,13 @@
 
 根据题目的来源选择适当的前缀加上对应 OJ 的题号组成：
 
-|OJ 全称|前缀|解释说明|
-|------|----|-------|
-|洛谷（Luogu）|lg|Luogu P4779 -> `lg4779.cc`|
-|Codeforces|CF|对于 Div.1 + Div.2 的赛题，尽量使用 Div.2 的比赛编号|
-|Codeforces Gym|Gym||
-|[Dark bzoj](https://darkbzoj.tk/)|dbz||
+|              OJ 全称              | 前缀 |                       解释说明                       |
+| :-------------------------------: | :--: | :--------------------------------------------------: |
+|           洛谷（Luogu）           |  lg  |              Luogu P4779 -> `lg4779.cc`              |
+|            Codeforces             |  CF  | 对于 Div.1 + Div.2 的赛题，尽量使用 Div.2 的比赛编号 |
+|          Codeforces Gym           | Gym  |                                                      |
+| [Dark bzoj](https://darkbzoj.tk/) | dbz  |                                                      |
+|             Libre OJ              | loj  |                                                      |
 
 ### 提交命名
 
